@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nginx-(Engine ex)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            background: #15424a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            background: #e8491d;
+            border-radius: 5px;
+            margin: 0 5px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #ff5733;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content {
+            margin: 20px 0;
+        }
+
+        .main-content h2 {
+            margin-bottom: 20px;
+            color: #35424a;
+        }
+
+        .main-content p {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #15424a;
+            color: #fff;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 768px) {
+            header, .container, footer {
+                padding: 10px;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nginx[Engine ex]</h1>
+        <p>~ Written by Igor Sysoev</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="main-content">
+            <h2>Welcome to Nginx</h2>
+            <p>Nginx is a web server commonly used as reverse proxy helps in setting up secured connection between your data-centers and outside network.</p>
+            <p>It was created to solve the C10k problem i.e concurrently handling 10 thousand connections.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Ritish</p>
+    </footer>
+</body>
+</html>
