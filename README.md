@@ -13,7 +13,10 @@
 - Expose the deployment using k8s services
 -     kubectl apply -f service.yaml
 -     kubectl get svc
-- Access the web page using IP address of the service with the particular port
+## Access the web page using IP address of the service with the particular port (here is mine)
+  
+  ![nginx](https://github.com/Ritish134/Deploy-with-nginx/assets/121374890/e52ec994-962b-47a4-bb99-0e80be911c15)
+
 
   ## Troubleshooting steps
   -     kubectl describe pods
